@@ -131,3 +131,38 @@ nav {
 .about-container h1 {
   text-align: center;
 }
+
+/* ------- Robin Williams ---------- */
+.robin-williams-container {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('../src/images/landing.gif'); */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* overflow: none; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.robin-williams-container h1 {
+  width: 100%;
+  text-align: center;
+}
+.robin-williams-container h4, h5 {
+  width: 100%;
+  text-align: left;
+}
+.robin-williams-container p {
+  padding: 1rem;
+}
+.robin-williams-container-content {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.robin-williams-container-abstract {
+  margin-top: 4rem;
+}

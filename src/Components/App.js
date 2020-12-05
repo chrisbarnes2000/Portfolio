@@ -4,9 +4,11 @@ import * as ROUTES from "./Routes";
 
 // import logo from '../Images/logo.svg';
 import './styles.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import AboutPage from './Pages/AboutPage';
 import NotFoundPage from './Pages/NotFoundPage';
+import RobinWilliamsPage from "./Pages/RobinWilliamsPage";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -40,6 +42,7 @@ function App() {
               <Redirect to={ROUTES.ABOUT} />
             </Route>
             <Route path={ROUTES.ABOUT} component={AboutPage} />
+            <Route path={ROUTES.ROBIN_WILLIAMS} component={RobinWilliamsPage} />
             <Route path={ROUTES.NOT_FOUND} component={NotFoundPage} />
           </Switch>
         </div>
