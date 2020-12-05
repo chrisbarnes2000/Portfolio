@@ -2,18 +2,17 @@ import React from "react";
 import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import * as ROUTES from "./Routes";
 
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
-
-library.add(fab, faCheckSquare, faCoffee);
-
-
 // import logo from '../Images/logo.svg';
 import './styles.css';
 
 import AboutPage from './Pages/AboutPage';
 import NotFoundPage from './Pages/NotFoundPage';
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, faCheckSquare, faCoffee);
 
 
 function App() {
