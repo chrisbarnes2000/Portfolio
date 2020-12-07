@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 // import { AuthUserContext } from './Session';
 import * as ROUTES from './Routes';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -21,7 +20,7 @@ const Navigation = () => (
         aria-selected="false"
         to={ROUTES.HOME}
       >
-        <FontAwesomeIcon icon={faHome} />
+        <FontAwesomeIcon icon={["fas", "home"]} />
       </Link>
       <Link
         className="nav-item nav-link"
@@ -34,51 +33,44 @@ const Navigation = () => (
       >
         Robin Williams
       </Link>
-
-      {/* {!!authUser.company_id && (
-                  <>
-                    <Link
-                      className="nav-item nav-link"
-                      id="nav-buildings-tab"
-                      data-toggle="tab"
-                      role="tab"
-                      aria-controls="nav-buildings"
-                      aria-selected="false"
-                      to={{pathname: `${ROUTES.COMPANIES}`
-                        // pathname: `${ROUTES.COMPANIES}/${authUser.company_id}`,
-                        // state: { company },
-                      }}
-                    >
-                      Company
-                    </Link>
-
-                    <Link
-                      className="nav-item nav-link"
-                      id="nav-floors-tab"
-                      data-toggle="tab"
-                      role="tab"
-                      aria-controls="nav-floors"
-                      aria-selected="false"
-                      to={ROUTES.FLOORS}
-                    >
-                      Floors
-                    </Link>
-                  </>
-                )} */}
+      <Link
+        className="nav-item nav-link"
+        id="nav-social-accounts-tab"
+        data-toggle="tab"
+        role="tab"
+        aria-controls="nav-social-accounts"
+        aria-selected="false"
+        to={ROUTES.SOCIAL_ACCOUNTS}
+      >
+        Vist my other Accounts
+      </Link>
+      <a
+        className="nav-item nav-link"
+        id="nav-ms-portfolio-tab"
+        data-toggle="tab"
+        role="tab"
+        aria-controls="nav-ms-protfolio"
+        aria-selected="false"
+        href="http://make.sc/portfolio/Christopher-Barnes"
+        target="_blank"
+        rel="noreferrer"
+      >
+        MS Protfolio <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
+      </a>
 
       {/* {!!authUser.roles.ADMIN && (
-                  <Link
-                    className="nav-item nav-link"
-                    id="nav-admin-tab"
-                    data-toggle="tab"
-                    role="tab"
-                    aria-controls="nav-admin"
-                    aria-selected="false"
-                    to={ROUTES.ADMIN}
-                  >
-                    Admin
-                  </Link>
-                )} */}
+        <Link
+          className="nav-item nav-link"
+          id="nav-admin-tab"
+          data-toggle="tab"
+          role="tab"
+          aria-controls="nav-admin"
+          aria-selected="false"
+          to={ROUTES.ADMIN}
+        >
+          Admin
+        </Link>
+      )} */}
     </div>
   </nav>
   // <div className="tab-wrapper">

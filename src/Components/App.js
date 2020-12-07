@@ -1,21 +1,19 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import * as ROUTES from "./Routes";
-
+import Navigation from "./Navigation";
+import "./styles.css";
 // import logo from '../Images/logo.svg';
-import './styles.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import AboutPage from './Pages/AboutPage';
-import NotFoundPage from './Pages/NotFoundPage';
-import RobinWilliamsPage from './Pages/RobinWilliamsPage';
-import Navigation from './Navigation';
+import { AboutPage, NotFoundPage, RobinWilliamsPage, SocialAccountsPage } from "./Pages";
+
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { fas, faCheckSquare, faCoffee, faHome, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faCheckSquare, faCoffee);
+library.add(fab, fas, faCheckSquare, faCoffee, faHome, faExternalLinkAlt);
 
 
 function App() {
@@ -43,6 +41,7 @@ function App() {
               <Redirect to={ROUTES.ABOUT} />
             </Route>
             <Route path={ROUTES.ABOUT} component={AboutPage} />
+            <Route path={ROUTES.SOCIAL_ACCOUNTS} component={SocialAccountsPage} />
             <Route path={ROUTES.ROBIN_WILLIAMS} component={RobinWilliamsPage} />
             <Route path={ROUTES.NOT_FOUND} component={NotFoundPage} />
           </Switch>

@@ -98,7 +98,7 @@ nav {
 
 /* ------- NotFound ---------- */
 .not-found-container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   /* background-image: url('../src/images/landing.gif'); */
   /* background-attachment: fixed;
@@ -115,7 +115,7 @@ nav {
 
 /* ------- About ---------- */
 .about-container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   /* background-image: url('../src/images/landing.gif'); */
   /* background-attachment: fixed;
@@ -133,9 +133,26 @@ nav {
   text-align: center;
 }
 
+/* ------- SocailAccounts ---------- */
+.social-accounts-container {
+  height: 90vh;
+  width: 100vw;
+  /* background-image: url('../src/images/landing.gif'); */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* overflow: none; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /* ------- Robin Williams ---------- */
 .robin-williams-container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   /* background-image: url('../src/images/landing.gif'); */
   /* background-attachment: fixed;
