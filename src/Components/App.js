@@ -8,7 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import AboutPage from './Pages/AboutPage';
 import NotFoundPage from './Pages/NotFoundPage';
-import RobinWilliamsPage from "./Pages/RobinWilliamsPage";
+import RobinWilliamsPage from './Pages/RobinWilliamsPage';
+import Navigation from './Navigation';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -46,6 +47,7 @@ function App() {
             <Route path={ROUTES.NOT_FOUND} component={NotFoundPage} />
           </Switch>
         </div>
+        <Navigation />
       </div>
     </Router>
   );

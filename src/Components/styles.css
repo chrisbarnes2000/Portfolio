@@ -57,6 +57,7 @@ a {
 }
 div.container {
   min-width: 100vw !important;
+  margin-bottom: 2rem;
   /* background-color: #087cb8 !important; */
 }
 .add-padding-bottom {
@@ -159,10 +160,11 @@ nav {
 .robin-williams-container p {
   padding: 1rem;
 }
-.robin-williams-container-content {
+.robin-williams-content {
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
-.robin-williams-container-abstract {
-  margin-top: 4rem;
+.robin-williams-abstract {
+  margin: 2rem;
+  padding-bottom: 5rem;
 }

@@ -6,7 +6,7 @@ class RobinWilliamsPage extends Component {
   render() {
     return (
       <div className="container robin-williams-container">
-        <div className="robin-williams-container-content">
+        <div className="container robin-williams-content">
           <h1> Robin Williams </h1>
 
           <img src="https://www.chortle.co.uk/images/photos/small/mork_egg.jpg" width="320" alt="Mork Egg" />
@@ -114,7 +114,7 @@ class RobinWilliamsPage extends Component {
 
         <p>(ADD MORE DETAILS)</p>
 
-        <div className="robin-williams-container-abstract">
+        <div className="container robin-williams-abstract">
           <h2>Abstract/References</h2>
           <p>
             "Robin Williams: Come Inside My Mind | Kanopy". Dominican.Kanopy.Com, 2020. Accessed 15 Nov 2020.
