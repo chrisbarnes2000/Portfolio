@@ -137,12 +137,26 @@ nav {
 .social-accounts-container {
   height: 90vh;
   width: 100vw;
-  /* background-image: url('../src/images/landing.gif'); */
-  /* background-attachment: fixed;
+  background-color: #0d4062;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
-  /* overflow: none; */
+  background-size: cover; 
+  overflow: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.page-inner {
+  background-color: #F5F6F8;
+  margin: 10vw;
+  padding: 10vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: none;
   text-align: center;
   display: flex;
   justify-content: center;
