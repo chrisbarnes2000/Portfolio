@@ -42,7 +42,7 @@ const Navigation = () => (
         aria-selected="false"
         to={ROUTES.SOCIAL_ACCOUNTS}
       >
-        Vist my other Accounts
+        Vist My Accounts
       </Link>
       <a
         className="nav-item nav-link"
