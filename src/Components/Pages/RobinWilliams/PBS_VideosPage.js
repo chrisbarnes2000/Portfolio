@@ -9,40 +9,10 @@ class PBS_VideosPage extends Component {
     return (
       <div className="add-padding-bottom pbs-videos-container">
         <DisplayVideo
-          // video_url="https://player.pbs.org/viralplayer/3031776866/"
-          video_url="https://www.pbs.org/video/robin-1471vu/"
-          site_url="https://www.pbs.org/video/robin-1471vu/"
-          site_title="INSIDE THE COVER: Robin"
-        />
-        <DisplayVideo
-          // video_url="https://player.pbs.org/viralplayer/2365305581/"
-          video_url="https://www.pbs.org/video/chicago-tonight-august-11-2014-remembering-robin-williams/"
-          site_url="https://www.pbs.org/video/chicago-tonight-august-11-2014-remembering-robin-williams/"
-          site_title="CHICAGO TONIGHT: Remembering Robin Williams"
-        />
-        <DisplayVideo
           // video_url="https://player.pbs.org/viralplayer/2365305654/"
           video_url="https://www.pbs.org/video/robin-williams-made-transformation-look-effortless-1415140089/"
           site_url="https://www.pbs.org/video/robin-williams-made-transformation-look-effortless-1415140089/"
           site_title="PBS NEWSHOUR: Robin Williams made transformation look effortless"
-        />
-        <DisplayVideo
-          // video_url=""
-          video_url="https://www.pbs.org/video/chicago-tonight-august-11-2014-discussing-depression/"
-          site_url="https://www.pbs.org/video/chicago-tonight-august-11-2014-discussing-depression/"
-          site_title="CHICAGO TONIGHT: Discussing Depression"
-        />
-        <DisplayVideo
-          // video_url="https://player.pbs.org/viralplayer/2365320526/"
-          video_url="https://www.pbs.org/video/pioneers-television-robin-williams-remembered/"
-          site_url="https://www.pbs.org/video/pioneers-television-robin-williams-remembered/"
-          site_title="PIONEERS OF TELEVISION: Robin Williams Remembered"
-        />
-        <DisplayVideo
-          // video_url="https://player.pbs.org/viralplayer/2365308829/"
-          video_url="https://www.pbs.org/video/studio-socal-mental-illness-whats-new/"
-          site_url="https://www.pbs.org/video/studio-socal-mental-illness-whats-new/"
-          site_title="STUDIO SOCAL: Mental Illness, What's New?"
         />
         <DisplayVideo
           // video_url="https://player.pbs.org/viralplayer/2365509819/"
@@ -80,40 +50,14 @@ class PBS_VideosPage extends Component {
           site_url="https://www.pbs.org/video/colorado-inside-out-august-15th-2014/"
           site_title="COLORADO INSIDE OUT: August 15th, 2014 Edition"
         />
-        {/* ----------- */}
-
         <DisplayVideo
-          // video_url=""
-          video_url="https://www.pbs.org/video/pioneers-television-robin-williams-hones-his-craft/"
-          site_url="https://www.pbs.org/video/pioneers-television-robin-williams-hones-his-craft/"
-          site_title=""
-        />
-        <DisplayVideo
-          // video_url=""
-          video_url="https://www.pbs.org/video/pioneers-television-jonathan-winters-mentors-robin-williams/"
-          site_url="https://www.pbs.org/video/pioneers-television-jonathan-winters-mentors-robin-williams/"
-          site_title=""
-        />
-        <DisplayVideo
-          // video_url=""
-          video_url=""
+          // video_url="https://player.pbs.org/viralplayer/3039264729/"
+          video_url="https://www.pbs.org/video/awakenings-web-extra-ksrtwg/"
           site_url="https://www.pbs.org/video/awakenings-web-extra-ksrtwg/"
-          site_title="https://www.pbs.org/video/awakenings-web-extra-ksrtwg/"
+          site_title="SATURDAY NIGHT CINEMA: Awakenings WEB EXTRA"
         />
         <DisplayVideo
-          // video_url=""
-          video_url="https://www.pbs.org/video/blank-blank-robin-williams-masks/"
-          site_url="https://www.pbs.org/video/blank-blank-robin-williams-masks/"
-          site_title=""
-        />
-        <DisplayVideo
-          // video_url=""
-          video_url="https://www.pbs.org/video/robin-williams-didn-t-know-he-had-this-mysterious-disease-1454024744/"
-          site_url="https://www.pbs.org/video/robin-williams-didn-t-know-he-had-this-mysterious-disease-1454024744/"
-          site_title=""
-        />
-        <DisplayVideo
-          // video_url=""
+          // video_url="https://player.pbs.org/viralplayer/3014449168/"
           video_url="https://www.pbs.org/video/robin-williams-1531779159/"
           site_url="https://www.pbs.org/video/robin-williams-1531779159/"
           site_title="PBS NEWSHOUR: Inside Robin Williams' lightning mind and creative soul"

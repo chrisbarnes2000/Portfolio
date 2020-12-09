@@ -28,8 +28,18 @@ class AboutPage extends Component {
           <br />
           <br />
           His High Scool's Robotic team &nbsp;
-          <a href="https://frc-events.firstinspires.org/team/2927">2927 PiRhoTechs</a> competed in &nbsp;
-          <a href="https://www.firstinspires.org/robotics/frc">First Robotics Competitions (FRC)</a>.
+          <a href="https://frc-events.firstinspires.org/team/2927">
+            2927 PiRhoTechs &nbsp;
+            <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
+            &nbsp;
+          </a>
+          competed in &nbsp;
+          <a href="https://www.firstinspires.org/robotics/frc">
+            First Robotics Competitions (FRC) &nbsp;
+            <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
+            &nbsp;
+          </a>
+          .
         </p>
 
         {/* <Link to={PROJECTS}>
