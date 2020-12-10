@@ -3,7 +3,7 @@ import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom"
 import * as ROUTES from "./Routes";
 import Navigation from "./Navigation";
 import "./styles.css";
-// import logo from '../Images/logo.svg';
+import Logo from '../Images/logo.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "video-react/dist/video-react.css";
 
@@ -23,10 +23,10 @@ function App() {
         <div className="hidden text-center">
           <div className="row desktop-banner">
             <div className="col">
-              {/* <img className="littler-square" alt="logo" src={Logo} /> */}
+              <img className="littler-square" alt="logo" src={Logo} />
               <h3>
                 <br></br>
-                Visit us on mobile to get the full experience!
+                Visit us on mobile @ <a href="Https://ChrisBarnes.news/#/">Https://ChrisBarnes.news/#/</a>!
               </h3>
             </div>
           </div>
@@ -45,8 +45,8 @@ function App() {
             <Route path={ROUTES.ROBIN_WILLIAMS} component={RobinWilliamsIndex} />
             <Route path={ROUTES.NOT_FOUND} component={NotFoundPage} />
           </Switch>
+          <Navigation />
         </div>
-        <Navigation />
       </div>
     </Router>
   );
