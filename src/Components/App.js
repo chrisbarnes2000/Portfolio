@@ -7,7 +7,7 @@ import Logo from '../Images/logo.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "video-react/dist/video-react.css";
 
-import { AboutPage, NotFoundPage, RobinWilliamsIndex, SocialAccountsPage } from "./Pages";
+import { AboutPage, NotFoundPage, SocialAccountsPage } from "./Pages";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -42,7 +42,6 @@ function App() {
             </Route>
             <Route path={ROUTES.ABOUT} component={AboutPage} />
             <Route path={ROUTES.SOCIAL_ACCOUNTS} component={SocialAccountsPage} />
-            <Route path={ROUTES.ROBIN_WILLIAMS} component={RobinWilliamsIndex} />
             <Route path={ROUTES.NOT_FOUND} component={NotFoundPage} />
           </Switch>
           <Navigation />

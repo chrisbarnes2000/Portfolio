@@ -24,17 +24,6 @@ const Navigation = () => (
       </Link>
       <Link
         className="nav-item nav-link"
-        id="nav-account-tab"
-        data-toggle="tab"
-        role="tab"
-        aria-controls="nav-account"
-        aria-selected="false"
-        to={ROUTES.ROBIN_WILLIAMS}
-      >
-        Robin Williams
-      </Link>
-      <Link
-        className="nav-item nav-link"
         id="nav-social-accounts-tab"
         data-toggle="tab"
         role="tab"
